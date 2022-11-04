@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+button{
+    background-color: red;
+    width: 250px;
+    font-size: 30px;
+    font-weight: 600;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+button:hover{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
+}
+
+.terrorist{
+    filter: invert(100);
+}
+
+.timer{
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.boom{
+    font-size: 200px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1rem;
+}
+.hidden{
+    display: none;
+}
